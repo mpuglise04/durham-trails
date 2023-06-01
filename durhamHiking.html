@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>NC Trails</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+        <!-- header contains nav with 4 links (home, about me, discover, contact), div with id hero and h1 -->
+        <header>
+            <nav> 
+                <a href = "#hero">Home</a>
+                <a href = "#author">About Me</a>
+                <a href = "#discover">Discover</a>
+                <a href = "#contact">Contact</a>
+            </nav>
+            <div id = "hero"> 
+                <h1>North Carolina Trails</h1>
+            </div>
+        </header>
+        <main>
+<!-- MAIN -->
+<!-- AUTHOR SECTION -->
+<!-- id of author, contains h2, img, div with h3 and p) -->
+    <section id = "author"> 
+        <h2>About the author</h2>
+        <img src = "https://images.unsplash.com/photo-1596815064285-45ed8a9c0463?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=732&q=80" alt="Allison Fawkes" />
+        <div>
+            <h3>Allison Fawkes</h3>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                 laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                  sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
+        </div>
+    </section>
+        <!-- DISCOVER SECTION -->
+        <!-- id of discover, contains h2, div with 4 sets of links (linked to internal sections) with nested div (class of icon on second) with img and h3) -->
+        <section id="discover">
+            <h2>Discover</h2>
+            <div>
+                <!-- favorite trail -->
+                <a href="#fav">
+                    <div>
+                        <div class="icon">
+                            <img src = "https://cdn.dribbble.com/userupload/7309854/file/original-2b296d32c12b4a5bf876bc39afbaca58.png?compress=1&resize=468x468" alt = "fav-icon" />
+                        </div>
+                        <h3>Map of Fav Trails</h3>
+
+                    </div>
+
+                </a>
+                <a href="#map">
+                    <div>
+                        <div class="icon">
+                            <img src = "https://cdn.dribbble.com/userupload/7309819/file/original-f1bdb4f7229066ec3aa6f60f04104aa3.png?compress=1&resize=468x468" alt = "map-icon" />
+                        </div>
+                        <h3>Map of NC Trails</h3>
+
+                    </div>
+
+                </a>
+                <a href="#horse-friendly">
+                    <div>
+                        <div class="icon">
+                            <img src = "https://cdn.dribbble.com/userupload/7309818/file/original-6976ad600745c46b74dddab4b5f3c90c.png?compress=1&resize=468x468" alt = "equestrian-icon" />
+                        </div>
+                        <h3>Equestrian Friendly Trails</h3>
+
+                    </div>
+
+                </a>
+                <a href="#equipment">
+                    <div>
+                        <div class="icon">
+                            <img src = "https://cdn.dribbble.com/userupload/7309816/file/original-215dc41032f95505eff70d36f2c2c824.png?compress=1&resize=468x468" alt = "equipment-icon" />
+                        </div>
+                        <h3>Equipment</h3>
+
+                    </div>
+                </a>
+
+            <!-- maps of trails -->
+            <!-- equestrian trails -->
+            <!-- equipment -->
+            </div>
+        </section>
+        <!-- FAVORITE SECTION -->
+        <!-- id of fav, contains h2, img, div with h3 and ul and p) -->
+        <section id="fav">
+            <h2>My Favorite Trails</h2>
+            <img src="https://images.unsplash.com/photo-1600284536251-8bb98db53468?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dHJhaWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60" alt="Forest View Trail" />
+            <div> 
+                <h3>Forest View Trail</h3>
+                <ul>
+                    <li><span>Length: </span>4 miles</li>
+                    <li><span>Best Season: </span>Fall</li>
+                    <li><span>Stroller Friendly: </span>no</li>
+                    <li><span>Sunrise Spot: </span>yes</li>
+                    <li><span>Sunset Spot: </span>no</li>
+                </ul>
+                <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta
+                     sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia 
+                     consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui 
+                     dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora 
+                     incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum 
+                     exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
+                      vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui
+                       dolorem eum fugiat quo voluptas nulla pariatur?" </p>
+            </div>
+        </section>
+        <!-- MAP SECTION -->
+        <!-- id of map, contains h2, div with img and several p (X with class of trail-marker and ids), ol -->
+        <section id="map">
+            <h2>Map of NC Trails</h2>
+            <div>
+                <img src="https://www.north-carolina-map.org/north-carolina.jpg" alt="Map of Trails"/>
+                <p class="trail-marker" id="a">X</p>
+                <p class="trail-marker" id="b">X</p>
+                <p class="trail-marker" id="c">X</p>
+                <p class="trail-marker" id="d">X</p>
+                <p class="trail-marker" id="e">X</p>
+            </div>
+            <ol>
+                <li id="a1">Trotter's Ridge</li>
+                <li id="b1">Mountain View</li>
+                <li id="c1">Runner's End</li>
+                <li id="d1">Piney Trail</li>
+                <li id="e1">Turtle Shell Creek</li>
+            </ol>
+        </section>
+
+        <!-- EQUESTRIAN SECTION -->
+        <!-- id of horse-friendly, contains h2, several sets of divs (class of trail-card) with img and link with h3 -->
+        <section id="horse-friendly">
+            <h2>Equestrian Friendly Trails</h2>
+            <div class="trail-card">
+                <img src="https://images.unsplash.com/photo-1592859600972-1b0834d83747?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="Trotter's Ridge" />
+                <a href="#">
+                    <h3>Trotter's Ridge</h3>
+                </a>
+            </div>
+            <div class="trail-card">
+                <img src="https://images.unsplash.com/photo-1632714394522-2916aac896e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Turtle Shell Creek" />
+                <a href="#">
+                    <h3>Turtle Shell Creek</h3>
+                </a>
+            </div>
+            <div class="trail-card">
+                <img src="https://images.unsplash.com/photo-1558272772-746981bfa969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Piney Trail" />
+                <a href="#">
+                    <h3>Piney Trail</h3>
+                </a>
+            </div>
+        </section>
+        <!-- EQUIPMENT SECTION -->
+        <!-- id of equipment, contains h2, table with a few rows and 5 columns -->
+        <section id="equipment">
+            <h2>Equipment</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Price</th>
+                    <th>Purpose</th>
+                    <th>Link</th>
+                </tr>
+                <tr>
+                    <td>Super Sneaker</td>
+                    <td>Footwear</td>
+                    <td>$120.99</td>
+                    <td>Running</td>
+                    <td><a href="#">Link</a></td>
+                </tr>
+                <tr>
+                    <td>The Cooler Water Bottle</td>
+                    <td>Water Bottle</td>
+                    <td>$34.97</td>
+                    <td>Hydration</td>
+                    <td><a href="#">Link</a></td>
+                </tr>
+                <tr>
+                    <td>AquaRepel Poncho</td>
+                    <td>Clothing</td>
+                    <td>$243.96</td>
+                    <td>Rain Protection</td>
+                    <td><a href="#">Link</a></td>
+                </tr>
+            </table>
+
+        </section>
+        <!-- END OF MAIN -->
+        </main>
+        <!-- ASIDE -->
+        <!-- id of contact, contains contact info -->
+        <aside id="contact">
+            <p>For more info contact me at <a href="mailto: fakeemail@example.com">fakeemail@example.com</a></p>
+        </aside>
+
+        <!-- FOOTER -->
+        <!-- contains copyright info -->
+        <footer>
+            <p>&copy; Duke Code+ 2023 </p>
+        </footer>
+    </body>
+</html>
